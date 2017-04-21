@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Android Support v7">
+    <CLASSES>
+      <root url="jar://K:/Environments/Android/extras/android/support/v7/recyclerview/libs/android-support-v7-recyclerview.jar!/" />
+      <root url="jar://K:/Environments/Android/extras/android/support/v7/appcompat/libs/android-support-v4.jar!/" />
+      <root url="jar://K:/Environments/Android/extras/android/support/v7/appcompat/libs/android-support-v7-appcompat.jar!/" />
+      <root url="jar://K:/Environments/Android/extras/android/support/v7/cardview/libs/android-support-v7-cardview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

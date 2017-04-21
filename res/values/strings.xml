@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Let\'s Eat</string>
+    <string name="empty_results">No Results Returned!</string>
+    <string name="search_products_hint">
+        :-::-::: Search Products :::-::-:
+    </string>
+    <string name="search_products_design">
+        :-::-:::-::-:-::-:::-::-:-::-:::-::-:
+    </string>
+    <string name="search_products_design_2">
+        :-::-:::-::-:-::-:-::-:::-::-:
+    </string>
+
+    <string name="submit_button">[ Submit ]</string>
+</resources>

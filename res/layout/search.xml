@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/rootLayout"
+        android:gravity="center"
+        android:background="@drawable/search_background_xml">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:text="@string/search_products_design_2"
+              android:id="@+id/design3"
+              android:layout_gravity="center_horizontal"
+              android:textColor="#55ffffff"
+              android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/search_products_design"
+            android:id="@+id/design1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#aaffffff"
+            android:textStyle="bold"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchBoxEditText"
+            android:minWidth="250dp"
+            android:hint="@string/search_products_hint"
+            android:gravity="center_horizontal|bottom"
+            android:layout_gravity="center_horizontal"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffffff"
+            android:textStyle="bold"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:text="@string/search_products_design"
+              android:id="@+id/design2"
+              android:layout_gravity="center_horizontal"
+              android:textColor="#aaffffff"
+              android:textStyle="bold"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:text="@string/search_products_design_2"
+              android:id="@+id/design4"
+              android:layout_gravity="center_horizontal"
+              android:textColor="#55ffffff"
+              android:textStyle="bold"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_button"
+            android:id="@+id/submitButton"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:onClick="onSubmitSearchResults"
+            android:textColor="#ffffff"/>
+
+</LinearLayout>
